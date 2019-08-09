@@ -14,6 +14,7 @@
 		EB2DB2CB22F58F3600507DB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB2DB2C922F58F3600507DB5 /* LaunchScreen.storyboard */; };
 		EB2DB2D622F58F3600507DB5 /* tabataTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2DB2D522F58F3600507DB5 /* tabataTimerTests.swift */; };
 		EB2DB2E122F58F3600507DB5 /* tabataTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2DB2E022F58F3600507DB5 /* tabataTimerUITests.swift */; };
+		EBBC951722F6E5160009CDFE /* TimerScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBC951622F6E5160009CDFE /* TimerScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		EB2DB2DC22F58F3600507DB5 /* tabataTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tabataTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB2DB2E022F58F3600507DB5 /* tabataTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabataTimerUITests.swift; sourceTree = "<group>"; };
 		EB2DB2E222F58F3600507DB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBBC951622F6E5160009CDFE /* TimerScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				EB2DB2C722F58F3600507DB5 /* Assets.xcassets */,
 				EB2DB2C922F58F3600507DB5 /* LaunchScreen.storyboard */,
 				EB2DB2CC22F58F3600507DB5 /* Info.plist */,
+				EBBC951622F6E5160009CDFE /* TimerScene.swift */,
 			);
 			path = tabataTimer;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBBC951722F6E5160009CDFE /* TimerScene.swift in Sources */,
 				EB2DB2C322F58F3500507DB5 /* ViewController.swift in Sources */,
 				EB2DB2C122F58F3500507DB5 /* AppDelegate.swift in Sources */,
 			);
